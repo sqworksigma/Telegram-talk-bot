@@ -28,9 +28,9 @@ namespace TelegramBotExample
             );
 
             Console.WriteLine("Bot started.");
-            Console.WriteLine("Type 'spam <message>'");
-            Console.WriteLine("'send <message>' to send it once,");
-            Console.WriteLine("'file <filepath>' to send a file's content, or 'img <filepath>'");
+            Console.WriteLine("Type 'spam message'");
+            Console.WriteLine("'send message' to send it once,");
+            Console.WriteLine("'file filepath' to send a file's content, or 'img filepath'");
             Console.WriteLine("Press Enter to exit.");
 
             while (true)
