@@ -15,12 +15,12 @@ Installation
 Clone the repository:
 ![image](https://github.com/user-attachments/assets/aa41a14d-37ad-4891-bc3d-6aaae07c6acc)
 
-sh
-Copy
-Edit
-git clone https://github.com/your-username/Telegram-Talk-Bot.git
-cd Telegram-Talk-Bot
-Install the required dependencies:
+> **Clone the Repository**
+>
+> ```sh
+> git clone https://github.com/your-username/Telegram-Talk-Bot.git
+> cd Telegram-Talk-Bot
+> ```
 
 sh
 Copy
