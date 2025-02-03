@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -17,7 +17,7 @@ namespace TelegramBotExample
 
         private static async Task Main(string[] args)
         {
-            string botToken = "8163882243:AAHEzu0AnZ3kcD47osXYtZer7YYKXg1g7aE"; // Replace with your bot token
+            string botToken = "bot_token"; // Replace with your bot token
             _botClient = new TelegramBotClient(botToken);
 
             var cts = new CancellationTokenSource();
@@ -27,7 +27,11 @@ namespace TelegramBotExample
                 cancellationToken: cts.Token
             );
 
-            Console.WriteLine("Bot started. Type 'spam <message>' to spam a message, 'send <message>' to send it once, 'file <filepath>' to send a file's content, or 'img <filepath>' to send an image. Press Enter to exit.");
+            Console.WriteLine("Bot started.");
+            Console.WriteLine("Type 'spam <message>'");
+            Console.WriteLine("'send <message>' to send it once,");
+            Console.WriteLine("'file <filepath>' to send a file's content, or 'img <filepath>'");
+            Console.WriteLine("Press Enter to exit.");
 
             while (true)
             {
@@ -161,7 +165,7 @@ namespace TelegramBotExample
 
                     if (chatId != 0)
                     {
-                        int messageCount = isSpam ? 1000000 : 1;
+                        int messageCount = isSpam ? 10 : 1;
                         for (int i = 0; i < messageCount; i++)
                         {
                             await SendMessage(chatId, customMessage, cancellationToken);
