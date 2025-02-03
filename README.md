@@ -14,7 +14,8 @@
 
 
 
-![0203-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6f204cf7-6ded-4005-b254-77b66568e4cb)
+
+![0203-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/c2429487-d0bf-4769-a5f6-a4baa086fce5)
 
 
 
