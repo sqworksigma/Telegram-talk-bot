@@ -11,6 +11,14 @@
 > 📂 **Send Files & Images** – Send text file contents and images to Telegram.  
 > 🔄 **Prevent Duplicate Logs** – Ensures messages are not logged multiple times.  
 
+
+
+
+https://github.com/user-attachments/assets/33040914-3162-41d4-848a-7ea3188132fb
+
+
+
+
 ---
 
 ## 🔧 Dependencies  
